@@ -131,7 +131,7 @@ import {
       date: "",
       points: [
         "Developing practical real world applications using Java swing/AWT frameworks and other related technologies.",
-        "Examples include responsive menu-driven GUI bank application using Swing/AWT which will stores a set of bank account records associated with customers (with the ability to add, modify and delete records) to carry out appropriate transactions on those records and produce reports both for individual bank accounts (e.g. bank statements) and for the collection of accounts.",
+        "Examples include responsive menu-driven GUI bank application using Swing/AWT whichwhich stores a set of bank account records associated to customers along with functionality to add, modify and delete records, carry out appropriate transactions on those records and produce bank statements both for individual bank accounts and for the collection of accounts.",
       ],
     },
     {
