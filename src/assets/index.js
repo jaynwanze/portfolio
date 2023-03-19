@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import website from "./website.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -23,9 +24,10 @@ import  wriggle from "./company/wriggle.svg";
 
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fitness from "./fitness.png";
+import banksystem from "./banksystem.png";
+import budget from "./budgettracker.png";
+
 
 export {
   logo,
@@ -33,6 +35,7 @@ export {
   creator,
   mobile,
   web,
+  website,
   github,
   menu,
   close,
@@ -49,7 +52,7 @@ export {
   sql,
   java,
   wriggle,
-  carrent,
-  jobit,
-  tripguide,
+  fitness,
+  banksystem,
+  budget
 };

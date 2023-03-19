@@ -15,9 +15,9 @@ import {
     sql,
     java,
     wriggle,
-    carrent,
-    jobit,
-    tripguide,
+    fitness,
+    banksystem,
+    budget,
     threejs,
   } from "../assets";
   
@@ -120,7 +120,7 @@ import {
       date: "",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Examples include a high-quality fitness web app and cryptocurrency app which implements responsive design and ensures cross-browser compatibility.",
+        "Examples include a high-quality fitness web app which implements responsive design and ensures cross-browser compatibility.",
       ],
     },
     {
@@ -131,7 +131,7 @@ import {
       date: "",
       points: [
         "Developing practical real world applications using Java swing/AWT frameworks and other related technologies.",
-        "Examples include responsive menu-driven GUI bank application using Swing/AWT which stores a set of bank account records associated to customers. Which includes functionality to add, modify and delete records, carry out appropriate transactions on those records and produce bank statements both for individual bank accounts and for the collection of accounts.",
+        "Examples include a budget tracker GUI application and banking system application using Swing/AWT which is menu driven GUI and implements a responsive design."
       ],
     },
     {
@@ -188,58 +188,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Fitness Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to gather information about fitness. Includes functionality to allow the viewing and searching of information of gym/fitness exercises and videos. Providing all your information in a convenient place and efficient solution for fitness needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -247,9 +205,55 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: fitness,
+      source_code_link: "https://upbuild.netlify.app/",
     },
+    {
+      name: "Banking System",
+      description:
+        "Java Swing/AWT application that enables customers to store a set of associated bank account records. Which includes functionality to add, modify and delete records, carry out appropriate transactions on those records and produce bank statements both for individual bank accounts and for the collection of accounts.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Swing",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AWT",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: banksystem,
+      source_code_link: "https://github.com/jaynwanze/BankingSystem",
+    },
+    {
+      name: "Budget Tracker System",
+      description:
+        "Java Swing/AWT application that enables user to track income and expenditure. Which includes functionality to budget, by adding the inflow and outflow of money to different income and expenses catergories and viewing this budget .",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Swing",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AWT",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: budget,
+      source_code_link: "https://github.com/jaynwanze/BudgetTrackerJN",
+    },
+
+
+    
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
