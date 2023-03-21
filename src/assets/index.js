@@ -27,6 +27,8 @@ import  wriggle from "./company/wriggle.svg";
 import fitness from "./fitness.png";
 import banksystem from "./banksystem.png";
 import budget from "./budgettracker.png";
+import krypto from "./kryptomesh.png";
+
 
 
 export {
@@ -51,6 +53,7 @@ export {
   threejs,
   sql,
   java,
+  krypto,
   wriggle,
   fitness,
   banksystem,

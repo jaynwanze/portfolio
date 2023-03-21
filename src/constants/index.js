@@ -15,6 +15,7 @@ import {
     sql,
     java,
     wriggle,
+    krypto,
     fitness,
     banksystem,
     budget,
@@ -187,10 +188,33 @@ import {
   ];
   
   const projects = [
+     {
+      
+      name: "Crypto Tracker Website",
+      description:
+        "Web-based platform Cryptocurrency web platform developed for providing the latest updates, value statistics, market cap, supply and news regarding the Cryptocurrency market. Through the utilization of API's to provide real-time market data and news updates. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: krypto,
+      source_code_link: "https://kryptomesh.netlify.app/",
+    },
     {
+      
       name: "Fitness Website",
       description:
-        "Web-based platform that allows users to gather information about fitness. Includes functionality to allow the viewing and searching of information of gym/fitness exercises and videos. Providing all your information in a convenient place and efficient solution for fitness needs.",
+        "Web-based platform that allows users to gather information about fitness, by enabling the viewing and searching of information of gym/fitness exercises and videos. Providing all your information in a convenient place and also an efficient solution for fitness needs.                                  ",
       tags: [
         {
           name: "react",
@@ -211,7 +235,7 @@ import {
     {
       name: "Banking System",
       description:
-        "Java Swing/AWT application that enables customers to store a set of associated bank account records. Which includes functionality to add, modify and delete records, carry out appropriate transactions on those records and produce bank statements both for individual bank accounts and for the collection of accounts.",
+        "Java Swing/AWT application that enables customers to store a set of associated bank account records, including functionality to add, modify and delete records, carry out appropriate transactions on those records and produce bank statements both for individual accounts/collection of accounts.",
       tags: [
         {
           name: "Java",
@@ -229,7 +253,9 @@ import {
       image: banksystem,
       source_code_link: "https://github.com/jaynwanze/BankingSystem",
     },
+    /*
     {
+      
       name: "Budget Tracker System",
       description:
         "Java Swing/AWT application that enables user to track income and expenditure. Which includes functionality to budget, by adding the inflow and outflow of money to different income and expenses catergories and viewing this budget .",
@@ -250,7 +276,7 @@ import {
       image: budget,
       source_code_link: "https://github.com/jaynwanze/BudgetTrackerJN",
     },
-
+*/
 
     
     
