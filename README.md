@@ -27,7 +27,7 @@ Assuming you have Node.js and npm installed
 npm install
    ```
 
-Run the development server:
+# Run the development server:
    ```sh
 npm start
    ```
